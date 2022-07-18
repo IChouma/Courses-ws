@@ -1,0 +1,70 @@
+#session {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#session > div {
+  margin-top: 150px;
+}
+
+#session > div h1 {
+  height: 120px;
+  width: 400px;
+  line-height: 120px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+.session {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.session .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(70, 70, 70, 0.1);
+  padding: 0 50px;
+  border-left: 3px solid #000;
+}
+.session .top h2 {
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.session .top div {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 0 30px;
+}
+.session .top div span {
+  width: 140px;
+  height: 35px;
+  font-size: 18px;
+  line-height: 35px;
+}
+.bottom {
+  display: flex;
+  gap: 35px;
+  padding: 25px 0;
+}
+.bottom > div {
+  width: 140px;
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+.bottom > div img {
+  width: 70px;
+  height: 70px;
+  max-height: 86px;
+  max-width: 86px;
+}
+.bottom p {
+  padding: 0 50px;
+  line-height: 30px;
+  font-size: 16px;
+}

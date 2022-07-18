@@ -1,0 +1,44 @@
+#master {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#master > div {
+  display: flex;
+  flex-direction: column;
+}
+.masters {
+  display: flex;
+  gap: 50px;
+  padding: 35px;
+  flex-wrap: wrap;
+}
+#master > div h1 {
+  height: 120px;
+  width: 400px;
+  line-height: 120px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+.master {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.master img {
+  background-color: #178881;
+  width: 150px;
+  height: 150px;
+}
+.master h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.master h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #707070;
+}
