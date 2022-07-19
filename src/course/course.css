@@ -31,6 +31,15 @@
   justify-content: space-evenly;
   min-height: 345px;
 }
+.particip div img {
+  width: 15px;
+  height: 15px;
+}
+.particip div {
+  display: flex;
+  gap: 10px;
+}
+
 .particip h2 {
   font-size: 20px;
 }
@@ -38,6 +47,7 @@
   font-size: 15px;
   line-height: 15px;
 }
+
 .toman {
   width: 345px;
   height: 250px;

@@ -6,7 +6,7 @@
 }
 #header header {
   height: 780px;
-   width: 100vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   background-color: #000;
@@ -18,14 +18,16 @@
   justify-content: space-between;
   align-items: center;
   gap: 25px;
-  padding: 50px ;
-  background-color: #707070;
+  padding: 50px;
   margin: 0 auto;
 }
 #header header nav .logo {
   min-width: 122.37px;
   min-height: 52px;
-  background-color: aquamarine;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  border-right: 5px dotted #fff;
 }
 #nav {
   flex-grow: 1;
@@ -39,14 +41,18 @@
   color: #fff;
 }
 .register {
-  width: 150.65px;
-  height: 51.79px;
+  width: 130.65px;
+  height: 41.79px;
   background-color: rgba(70, 70, 70, 0.3);
   color: #fff;
   border: 1px solid #707070;
-  line-height: 51.79px;
+  line-height: 41.79px;
   text-align: center;
   border-radius: 25px;
+  transition: 0.3s ease;
+}
+.register:hover {
+  background-color: rgba(70, 70, 70, 1.3);
 }
 
 #header header nav #nav {
@@ -107,4 +113,5 @@
 .intro .right img {
   width: 500.03px;
   height: 500.54px;
+  border-radius: 7px;
 }

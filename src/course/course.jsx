@@ -1,5 +1,6 @@
 import React from 'react';
-import "./course.css"
+import "./course.css";
+import valaid from "../media/valaid.png";
 
 function Course() {
   return (
@@ -9,10 +10,10 @@ function Course() {
         <div className="course">
             <div className='particip'>
               <h2>What will be our achievements by participating in this course?</h2>
-              <p>- Learn the requirements of a product designer from experienced professionals in the field.</p>
-              <p>- Learn the requirements of a product designer from experienced professionals in the field.</p>
-              <p>- Learn the requirements of a product designer from experienced professionals in the field.</p>
-              <p>- Learn the requirements of a product designer from experienced professionals in the field.</p>
+              <div><img src={valaid} alt="" /><p>Learn the requirements of a product designer from experienced professionals in the field.</p></div>
+              <div><img src={valaid} alt="" /><p>Learn the requirements of a product designer from experienced professionals in the field.</p></div>
+              <div><img src={valaid} alt="" /><p>Learn the requirements of a product designer from experienced professionals in the field.</p></div>
+              <div><img src={valaid} alt="" /><p>Learn the requirements of a product designer from experienced professionals in the field.</p></div>
             </div>
             <div className='toman'>
               <h2> 4,000,000 Toman</h2>

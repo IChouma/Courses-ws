@@ -40,11 +40,27 @@
   display: flex;
   align-items: center;
 }
-#exper > div .exper-2 img {
-  width: 400px;
-  height: 200px;
+#exper > div .exper-2 div {
+  width: 700px;
+  height: 120px;
+  padding: 15px;
+  background-color: #707070;
 }
-#exper > div .exper-2 p {
+
+#exper > div .exper-2 div p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: #fff;
+  font-size: 25px;
+  text-align: center;
+  
+
+}
+#exper > div .exper-2 > p {
   padding-left: 100px;
   line-height: 40px;
 }

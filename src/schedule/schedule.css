@@ -5,7 +5,7 @@
   margin-top: 100px;
 }
 #shedule > div {
-  background-color: rgba(70, 70, 70, .1);
+  background-color: rgba(70, 70, 70, 0.1);
 }
 #shedule > div > div {
   display: flex;
@@ -106,8 +106,23 @@
   padding: 30px 25px;
 }
 #shedule footer > div {
-  background-color: #707070;
-  width: 150px;
   height: 30px;
-  border-radius: 7px;
+}
+.s-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.s-media img {
+  width: 40px;
+  height: 40px;
+}
+.f-logo {
+  font-size: 18px;
+  font-weight: 600;
+}
+footer span {
+  line-height: 30px;
+  text-align: center;
 }

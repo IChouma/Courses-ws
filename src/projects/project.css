@@ -7,7 +7,7 @@
 #project > div {
   display: flex;
   flex-direction: column;
- background-color: #ffffffcc;
+  background-color: #ffffffcc;
 }
 .projects {
   display: flex;
@@ -64,9 +64,18 @@
   flex-direction: column;
   gap: 20px;
 }
-.project-right img {
+.project-right > span {
   width: 70%;
   flex-grow: 1;
+  border-radius: 7px;
+  background-color: #707070;
+  font-size: 33px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 .pagin {
   display: flex;

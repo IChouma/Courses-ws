@@ -18,7 +18,7 @@ function Project() {
         <strong>4/15</strong>
     </div>
     <div className='project-right' >
-        <img src="" alt="" className="img"/>
+        <span>somthing will appear here</span>
         <div className="pagin">
             <span>&lt;</span>
             <span>&gt;</span>

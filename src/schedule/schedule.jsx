@@ -1,5 +1,8 @@
 import React from 'react';
 import "./schedule.css";
+import facebook from "../media/stwitter.png";
+import instagram from "../media/facebook.png";
+import twitter from "../media/instagram.png";
 
 function Schedule() {
   return (
@@ -28,9 +31,13 @@ function Schedule() {
                 </div>
             </div>
             <footer>
-                <div className="s-media"></div>
-                <div className="f-logo"></div>
-                <div></div>
+                <div className="s-media">
+                <a href=""><img src={facebook} alt="" /></a>
+                <a href=""><img src={twitter} alt="" /></a>
+                <a href=""><img src={instagram} alt="" /></a>
+                </div>
+                <div className="f-logo">Product <br /> Factory</div>
+                <span>Contact Number : 0212-661771140</span>
             </footer>
     </div>
   </section>

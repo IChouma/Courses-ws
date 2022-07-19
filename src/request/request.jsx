@@ -1,5 +1,6 @@
 import React from 'react';
-import "./request.css"
+import "./request.css";
+import mail from "../media/mail.png";
 
 function Request() {
   return (
@@ -12,7 +13,7 @@ function Request() {
         <span>Your email has been successfully registered, headlines will be sent to you soon.</span>
     </div>
     <div className="img">
-        <img src="" alt="" />
+        <img src={mail} alt="" />
     </div>
 </div>
    </section>

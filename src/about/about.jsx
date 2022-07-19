@@ -1,17 +1,23 @@
 import React from 'react'
 import { Fragment } from 'react';
 import './about.css'
-import logo from "./logo.png"
+import facebook from "../media/btwitter.png";
+import instagram from "../media/facebook.png";
+import twitter from "../media/instagram.png";
 function About() {
   return (
    <Fragment>
 <section id="about">
     <div className='section-w'>
-    <img src={logo} alt="" />
+    <p>Product Factory</p>
     <div className='about'>
         <div>
             <span>about</span>
-            <img src={logo} alt="" />
+            <div>
+                <a href=""><img src={facebook} alt="" /></a>
+                <a href=""><img src={twitter} alt="" /></a>
+                <a href=""><img src={instagram} alt="" /></a>
+            </div>
         </div>
         <p>Today, given the economic and labor market conditions, the best and least risky way to invest is to invest in personal assets and skills.
 UI / UX Product Design Course covers all aspects of product design from product thinking and design to user-centric research and product research and business vision and digital marketing to product designers and creators, designing the end-user experience and interface of the product and how to deliver it. Includes.

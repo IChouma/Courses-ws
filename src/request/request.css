@@ -45,8 +45,18 @@
   font-size: 12px;
 }
 .img {
-  background-color: rgba(70, 70, 70, 0.2);
   width: 40%;
   height: 250px;
   border-radius: 20px;
+ display: flex;
+ justify-content: center;
+ opacity: .4;
+}
+.img:hover {
+ 
+ opacity: .7;
+}
+.img img {
+  width: 250px;
+  height: 250px;
 }
