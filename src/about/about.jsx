@@ -14,9 +14,9 @@ function About() {
         <div>
             <span>about</span>
             <div>
-                <a href=""><img src={facebook} alt="" /></a>
-                <a href=""><img src={twitter} alt="" /></a>
-                <a href=""><img src={instagram} alt="" /></a>
+                <a href={"#"}><img src={facebook} alt="" /></a>
+                <a href={"#"}><img src={twitter} alt="" /></a>
+                <a href={"#"}><img src={instagram} alt="" /></a>
             </div>
         </div>
         <p>Today, given the economic and labor market conditions, the best and least risky way to invest is to invest in personal assets and skills.

@@ -6,7 +6,7 @@ function Exper() {
   return (
     <Fragment>
 
-    <sectino id="exper">
+    <section id="exper">
         <div className='section-w'>
         <h1>Course Experience</h1>
         <div className='exper-3'>
@@ -22,7 +22,7 @@ function Exper() {
                 Obviously, the ability to use tools like Adobe Photoshop and Adobe Illustrator as well as Microsoft Word, Excel tools, and of course a lot of enthusiasm and energy, </p>
         </div>
         </div>
-    </sectino>
+    </section>
     </Fragment>
   )
 }

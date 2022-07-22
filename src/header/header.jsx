@@ -9,15 +9,15 @@ function Header() {
     <section id="header">
     <header >
         <nav>
-        <a href="" className='logo'><img  alt="" />Prodyuct <br/> Factory</a>
+        <a href={"#"} className='logo'><img  alt="" />Prodyuct <br/> Factory</a>
         <ul id='nav'>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Partners</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Masters</a></li>
-            <li><a href="">Classes</a></li>
-            <li><a href="">Course Experience</a></li>
-            <li><a href="">About us</a></li>
+            <li><a href={"#"}>Projects</a></li>
+            <li><a href={"#"}>Partners</a></li>
+            <li><a href={"#"}>FAQ</a></li>
+            <li><a href={"#"}>Masters</a></li>
+            <li><a href={"#"}>Classes</a></li>
+            <li><a href={"#"}>Course Experience</a></li>
+            <li><a href={"#"}>About us</a></li>
         </ul>
         <div className="register"> register </div>
         </nav>
@@ -29,7 +29,7 @@ function Header() {
             <p>Learn how design thinking, user research,
 business vision and marketing, and finally designing
 and creating real digital products for real users.</p>
-            <a href="">start Register</a>
+            <a href={"#"}>start Register</a>
         </div>
         <div className="right">
             <img src={office} alt="" />
