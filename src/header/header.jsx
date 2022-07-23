@@ -8,7 +8,7 @@ function Header() {
     <section id="header">
     <header >
         <nav>
-        <a href={"#"} className='logo'><img  alt="" />Prodyuct <br/> Factory</a>
+        <a href={"#header"} className='logo'><img  alt="" />Prodyuct <br/> Factory</a>
         <ul id='nav'>
             <li><a href={"#header"}>Projects</a></li>
             <li><a href={"#header"}>Partners</a></li>
