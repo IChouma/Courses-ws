@@ -32,9 +32,9 @@ function Schedule() {
             </div>
             <footer>
                 <div className="s-media">
-                <a href={"#"}><img src={facebook} alt="" /></a>
-                <a href={"#"}><img src={twitter} alt="" /></a>
-                <a href={"#"}><img src={instagram} alt="" /></a>
+                <a href={"#shedule"}><img src={facebook} alt="" /></a>
+                <a href={"#shedule"}><img src={twitter} alt="" /></a>
+                <a href={"#shedule"}><img src={instagram} alt="" /></a>
                 </div>
                 <div className="f-logo">Product <br /> Factory</div>
                 <span>Contact Number : 0212-661771140</span>

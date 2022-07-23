@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./master.css";
 import  f1 from'../media/f1.png'
 import  f2 from'../media/f2.png'
